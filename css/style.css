@@ -9,6 +9,7 @@ body {
   width: 1200px;
   background: #fff;
   margin: 40px auto;
+  box-shadow: 6px 6px 20px;
 }
 
 /* Main content sections */
@@ -62,36 +63,98 @@ body {
 /* My projects section */
 
 .my-projects-section {
+  margin-bottom: 50px;
 }
 
 .my-projects-list {
   padding-left: 17px;
 }
 
-/* .projects-item {
-  padding-right: 15px;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 24px;
+.my-projects-item {
   color: #000;
-} */
+  font-weight: bold;
+}
 
-/* .projects-item-text {
+.my-projects-link {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   color: #595959;
-} */
+}
+
+.my-projects-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  margin-left: 7px;
+}
+
+.my-projects-bracket {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000;
+}
 
 /* My work experience section */
 
-.work-experience-section {
+.my-work-experience-section {
+  margin: 0 0 45px 0;
+  width: 525px;
+}
+
+.my-work-experience-company {
+  color: #fb6d3a;
+}
+
+.my-work-experience-position {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000;
+  margin: 0 0 10px 0;
+}
+
+.my-work-experience-period {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin: 0 0 10px 0;
+}
+
+.my-work-experience-divider {
+  color: #000;
+}
+
+.my-work-experience-duties {
+  padding: 0 0 0 15px;
+  margin: 0 0 0 0;
+}
+
+.my-work-experience-duty-item {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.my-work-experience-company-block {
+  margin: 0 0 15px 0;
 }
 
 /* Education section */
 .my-education-section {
+}
+.education-position {
+  margin: 0 0 10px 0;
 }
 
 /* Sidebar section */
