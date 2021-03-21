@@ -107,8 +107,8 @@ body {
   width: 525px;
 }
 
-.my-work-experience-company {
-  color: #fb6d3a;
+.my-work-experience-company-block {
+  margin: 0 0 15px 0;
 }
 
 .my-work-experience-position {
@@ -118,6 +118,10 @@ body {
   line-height: 20px;
   color: #000;
   margin: 0 0 10px 0;
+}
+
+.my-work-experience-company {
+  color: #fb6d3a;
 }
 
 .my-work-experience-period {
@@ -146,15 +150,16 @@ body {
   color: #595959;
 }
 
-.my-work-experience-company-block {
-  margin: 0 0 15px 0;
-}
-
 /* Education section */
-.my-education-section {
-}
+
 .education-position {
   margin: 0 0 10px 0;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
 }
 
 /* Sidebar section */
@@ -198,7 +203,10 @@ body {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #565e6a;
+  /* color: #565e6a; */
+
+  color: #ffffff;
+  opacity: 0.5;
 }
 
 /* Skills section */
